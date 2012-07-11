@@ -13,4 +13,5 @@ apt-get install -y -q \
                       build-essential\
                       python-dev
 
+# Install dependencies
 easy_install zc.buildout==1.4.4
