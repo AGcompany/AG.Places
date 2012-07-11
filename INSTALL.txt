@@ -1,0 +1,4 @@
+INSTALL
+=======
+
+python bootstrap.py
