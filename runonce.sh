@@ -29,3 +29,7 @@ apt-get install -y -q libxml2
 apt-get install -y -q python-libxslt1
 apt-get install -y -q libxslt-dev
 easy_install lxml
+
+
+
+apt-get install nginx
