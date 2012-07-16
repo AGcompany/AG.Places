@@ -1,7 +1,7 @@
 INSTALL
 =======
 
-python bootstrap.py
+./configure -e production
 
 ./bin/buildout
 
