@@ -1,0 +1,34 @@
+#! /usr/bin/env python
+
+""" Configure script.
+    This writes buildout.cfg.  After running configure you should run buildout to execute the build.
+    You can run this as:
+    ./configure
+"""
+
+import os, sys, subprocess
+from optparse import OptionParser
+
+parser = OptionParser()
+parser.add_option("-e", "--environment", dest="environment",
+                  help="What kind of deployment", default="dev")
+options, args = parser.parse_args()
+
+template = """[buildout]
+extends =
+    %(extends)s
+    base.cfg"""
+
+extends = ""
+
+if options.environment == "production":
+    extends = "production.cfg"
+
+if options.environment == "dev":
+    extends = "develop.cfg"
+
+open("buildout.cfg", "w").write(template % {
+    "extends": extends,
+})
+
+print "buildout.cfg created successfully"
