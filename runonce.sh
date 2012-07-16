@@ -11,7 +11,15 @@ apt-get install -y -q \
                       xpdf\
                       wv\
                       build-essential\
-                      python-dev
+                      python-dev\
+                      libpcre3\
+                      libpcre3-dbg\
+                      libpcre3-dev\
+                      libssl-dev\
+                      openssl\
+                      pkg-config
+
+
 
 
 # Install dependencies
