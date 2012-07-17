@@ -16,8 +16,8 @@ options, args = parser.parse_args()
 
 template = """[buildout]
 extends =
-    %(extends)s
-    base.cfg"""
+    base.cfg
+    %(extends)s"""
 
 extends = ""
 
