@@ -1,4 +1,3 @@
-
 apt-get update
 apt-get install -y -q \
                       python-libxml2\
@@ -41,3 +40,6 @@ easy_install lxml
 
 
 apt-get install nginx
+
+locale-gen ru_RU.UTF-8
+locale-gen en_US.UTF-8
