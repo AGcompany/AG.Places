@@ -2,5 +2,6 @@
 <metadata>
     <version>0001</version>
     <dependencies>
+        <dependency>profile-collective.plonetruegallery:default</dependency>
     </dependencies>
 </metadata>
