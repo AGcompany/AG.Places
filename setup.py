@@ -34,6 +34,7 @@ setup(name='AG.Places',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
+          'collective.plonetruegallery',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
