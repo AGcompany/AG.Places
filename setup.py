@@ -35,6 +35,7 @@ setup(name='AG.Places',
       zip_safe=False,
       install_requires=[
           'collective.plonetruegallery',
+          'collective.geo.bundle',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
