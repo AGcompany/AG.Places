@@ -3,5 +3,6 @@
     <version>0001</version>
     <dependencies>
         <dependency>profile-collective.plonetruegallery:default</dependency>
+        <dependency>profile-collective.geo.bundle:default</dependency>
     </dependencies>
 </metadata>
