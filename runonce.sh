@@ -19,6 +19,8 @@ apt-get install -y -q \
                       pkg-config
 
 
+apt-get install binutils
+apt-get install libgeos-c1
 
 
 # Install dependencies
