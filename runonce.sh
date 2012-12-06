@@ -45,3 +45,10 @@ apt-get install nginx
 
 locale-gen ru_RU.UTF-8
 locale-gen en_US.UTF-8
+
+#    1  sudo ln -s /usr/lib/x86_64-linux-gnu/libfreetype.so /usr/lib/
+#    2  sudo ln -s /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/
+#    3  sudo ln -s /usr/lib/x86_64-linux-gnu/libjpeg.so /usr/lib/
+#    4  sudo ln -s /usr/lib/x86_64-linux-gnu/libfreetype.so.6 /usr/lib/
+#    5  sudo ln -s /usr/lib/x86_64-linux-gnu/libz.so /lib/
+
