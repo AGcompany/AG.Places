@@ -1,6 +1,7 @@
 language: python
 
 install:
+    - ./configure
     - python bootstrap.py
     - ./bin/buildout
 
